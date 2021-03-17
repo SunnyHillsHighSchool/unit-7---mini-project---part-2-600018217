@@ -18,18 +18,18 @@ public class Main {
       //Use this code to test the methods in the ComputingStatistics class
       ComputingStatistics analysis = new ComputingStatistics(list);
       System.out.println(analysis.totalAmount());
-//       System.out.println(analysis.avgLoan());
-//       System.out.println(analysis.largestLoan());
-//       System.out.println(analysis.smallestLoan());
-//       System.out.println(analysis.largestLoanCountry());
-//       System.out.println(analysis.smallestLoanCountry());
-//       System.out.println(analysis.avgDaysToFund());
-//       System.out.println(analysis.largestLoanKenya());
-//       System.out.println(analysis.avgLoanPhilippines());
-//       System.out.println(analysis.longestToFundCountry());
-//       System.out.println(analysis.variance());
-//       System.out.println(analysis.standardDeviation());
-//       System.out.println(analysis.empiricalRule());
+      System.out.println(analysis.avgLoan());
+       System.out.println(analysis.largestLoan());
+       System.out.println(analysis.smallestLoan());
+       System.out.println(analysis.largestLoanCountry());
+       System.out.println(analysis.smallestLoanCountry());
+       System.out.println(analysis.avgDaysToFund());
+       System.out.println(analysis.largestLoanKenya());
+       System.out.println(analysis.avgLoanPhilippines());
+      System.out.println(analysis.longestToFundCountry());
+       System.out.println(analysis.variance());
+       System.out.println(analysis.standardDeviation());
+       System.out.println(analysis.empiricalRule());
    }
    
    
