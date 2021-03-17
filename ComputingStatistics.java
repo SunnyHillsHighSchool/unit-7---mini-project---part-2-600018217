@@ -1,3 +1,4 @@
+//Programmers: Johnathan Mitri, Julian Matuszewski
 import java.util.ArrayList;
 
 public class ComputingStatistics
@@ -213,10 +214,12 @@ public class ComputingStatistics
 		{
       //get loanAmount
 			double loanAmount = l.getLoanAmount();
-      //if the loanAmount is within bounds
+      //if the loanAmount is within one standard deviation
 			if (loanAmount > low && loanAmount < high)
+        //increment count
 				count++;
 		}
+    //return whether or not at least 68% of the elements are within one standard deviation
 		return count >= 0.68 * data.size();
 	}
 
